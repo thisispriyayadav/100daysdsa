@@ -1,0 +1,15 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class simpleinterest {
+    public static void main(String[] args) {
+        System.out.println("enter principle,rate and time for calculating simple interest ");
+        Scanner sc = new Scanner(System.in);
+        float principle = sc.nextFloat();
+        float rate = sc.nextFloat();
+        float time = sc.nextFloat();
+        float simple_interest= principle*rate*time/100;
+        System.out.println("simple interest ="+simple_interest);
+    }
+}
