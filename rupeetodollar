@@ -1,0 +1,17 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class rupeetodollar {
+    public static void main(String[] args) {
+        float rupees;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter currency in rupees");
+        float rs= sc.nextFloat();
+        float dollar =rs/74;
+        System.out.println("rupees in dollar"+" "+dollar);
+
+
+    }
+}
