@@ -1,0 +1,18 @@
+package com.company;
+
+
+import java.util.Scanner;
+
+public class rect_area {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("enter length of rectangle");
+        int len = sc.nextInt();
+        System.out.println("enter any breadth");
+        int brth = sc.nextInt();
+        int area = len * brth;
+        System.out.println("The area is :"+ area);
+
+    }
+}
