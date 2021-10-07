@@ -1,0 +1,15 @@
+public class no_of_digits {
+    public static void main(String[] args) {
+        int n = 34567;
+        int b = 10 ;//base 10 ie decimal
+        int ans =(int) (Math.log(n)/ Math.log(b))+1;
+        System.out.println(ans);
+
+
+
+
+        //find number of digit in base
+
+
+    }
+}
