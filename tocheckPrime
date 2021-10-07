@@ -1,0 +1,29 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class prime {
+    public static void main(String[] args) {
+        System.out.println("enter number to be checked ");
+        Scanner sc = new Scanner(System.in);
+
+        int N =sc.nextInt();
+        boolean flag = false;
+        for(int i =2; i<N; i++){
+            if(N % i ==0) {
+                flag = true;
+                break;
+            }
+            if(!flag)
+                System.out.println(N+"is a prime number");
+            else
+                System.out.println(N+"is not a prime number");
+
+
+
+                }
+            }
+
+
+        }
+
